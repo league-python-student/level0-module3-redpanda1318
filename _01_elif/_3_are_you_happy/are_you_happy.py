@@ -12,15 +12,15 @@ if __name__ == '__main__':
         print("Keep doing whatever you're doing")
 
 
-    thing = simpledialog.askstring(title='not happy', prompt="Do You Want To Be Happy?")
 
     if happy == 'no':
+        thing = simpledialog.askstring(title='not happy', prompt="Do You Want To Be Happy?")
         print(thing)
 
-    if thing == 'yes':
-        print("Change Something")
+        if thing == 'yes':
+            print("Change Something")
 
-    if thing == 'no':
-        print("Keep Doing Whatever You're Doing")
+        if thing == 'no':
+            print("Keep Doing Whatever You're Doing")
 
     pass

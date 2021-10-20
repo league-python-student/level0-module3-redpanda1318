@@ -13,9 +13,10 @@ def play_mister_zee():
 
 def many_shiny_objects():
     # TODO 1) Call the method above to play Mister Zee
+    can_play_sounds
 
     # TODO 2) Ask the user how many shiny objects they want
-
+    print("How many shiny objects do you want?")
     # TODO 3) Play the sound that many times
 
     pass

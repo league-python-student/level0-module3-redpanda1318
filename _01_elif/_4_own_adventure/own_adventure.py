@@ -4,3 +4,14 @@ from tkinter import simpledialog, messagebox, Tk
 #  path of the plot.
 #  Use pop-ups, if statements, and your imagination to make an interesting
 #  story
+
+window = Tk()
+window.withdraw()
+
+if __name__ == '__main__':
+
+
+
+
+
+
