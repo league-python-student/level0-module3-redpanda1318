@@ -42,7 +42,6 @@ if __name__ == '__main__':
         my_turtle.forward(30)
         my_turtle.left(144)
 
-
     my_turtle.penup()
     my_turtle.setx(-100)
 
@@ -50,7 +49,6 @@ if __name__ == '__main__':
     for i in range(5):
         my_turtle.forward(30)
         my_turtle.left(144)
-
 
     my_turtle.penup()
     my_turtle.setx(-50)
@@ -60,6 +58,29 @@ if __name__ == '__main__':
         my_turtle.forward(30)
         my_turtle.left(144)
 
+    my_turtle.penup()
+    my_turtle.setx(0)
+
+    my_turtle.pendown()
+    for i in range(5):
+        my_turtle.forward(30)
+        my_turtle.left(144)
+
+    my_turtle.penup()
+    my_turtle.setx(50)
+
+    my_turtle.pendown()
+    for i in range(5):
+        my_turtle.forward(30)
+        my_turtle.left(144)
+
+    my_turtle.penup()
+    my_turtle.setx(100)
+
+    my_turtle.pendown()
+    for i in range(5):
+        my_turtle.forward(30)
+        my_turtle.left(144)
     # TODO 3) Set the length of each line in the star to 30
 
     # TODO: CHALLENGE
