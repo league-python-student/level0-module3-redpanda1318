@@ -7,12 +7,28 @@ def setup():
 
 def draw():
     
-    # First run the program and you should see a flower.  
-  
+    # First run the program and you should see a flower. 
+    w = 80
+    h= 100
+    
+    x = 20
+    y = 450
+    
   
     # Then, use a loop to make a body for the Bee! 
-    for i in range(1):
-        ellipse()
+    for i in range(15):
+        if i % 2 == 0:
+            fill("#F8FC7F")
+
+        else:
+            fill("#050505")
+        ellipse(x,y,w,h)
+
+        x += 20
+        y -= 20
+        
+        draw_bee_face(300,165)
+        
         
     # (see the image on the recipe, it's a diagonal line of circles)
     # Use modulo to make the colors alternate between yellow and black
